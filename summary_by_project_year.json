@@ -1,0 +1,36 @@
+{
+  "description": "Median team_count by project and year",
+  "operations": "group_by(project, year) + summarise",
+  "summary": [
+    {
+      "project": "A",
+      "year": 102,
+      "median_team_count": 48,
+      "n": 2
+    },
+    {
+      "project": "A",
+      "year": 106,
+      "median_team_count": 52,
+      "n": 2
+    },
+    {
+      "project": "B",
+      "year": 106,
+      "median_team_count": 30,
+      "n": 1
+    },
+    {
+      "project": "B",
+      "year": 113,
+      "median_team_count": 32,
+      "n": 2
+    },
+    {
+      "project": "C",
+      "year": 113,
+      "median_team_count": 60,
+      "n": 3
+    }
+  ]
+}

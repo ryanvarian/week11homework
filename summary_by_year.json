@@ -1,0 +1,24 @@
+{
+  "description": "Total team_count and participant_count by year",
+  "operations": "group_by(year) + summarise",
+  "summary": [
+    {
+      "year": 102,
+      "total_team_count": 120,
+      "total_participant_count": 1500,
+      "n": 3
+    },
+    {
+      "year": 106,
+      "total_team_count": 180,
+      "total_participant_count": 2200,
+      "n": 4
+    },
+    {
+      "year": 113,
+      "total_team_count": 200,
+      "total_participant_count": 3000,
+      "n": 5
+    }
+  ]
+}

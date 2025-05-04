@@ -1,0 +1,30 @@
+{
+  "description": "Summary of team_count and participant_count by project",
+  "operations": "group_by(project) + summarise",
+  "summary": [
+    {
+      "project": "A",
+      "mean_team_count": 50.0,
+      "sd_team_count": 12.5,
+      "mean_participant_count": 600.0,
+      "sd_participant_count": 150.0,
+      "n": 4
+    },
+    {
+      "project": "B",
+      "mean_team_count": 30.0,
+      "sd_team_count": 8.0,
+      "mean_participant_count": 300.0,
+      "sd_participant_count": 90.0,
+      "n": 3
+    },
+    {
+      "project": "C",
+      "mean_team_count": 60.0,
+      "sd_team_count": 15.0,
+      "mean_participant_count": 800.0,
+      "sd_participant_count": 200.0,
+      "n": 5
+    }
+  ]
+}

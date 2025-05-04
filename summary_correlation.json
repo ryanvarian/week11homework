@@ -1,0 +1,8 @@
+{
+  "description": "Correlation between year and participant_count",
+  "operations": "cor + cor.test",
+  "summary": {
+    "correlation": 0.65,
+    "p_value": 0.012
+  }
+}
