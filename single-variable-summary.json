@@ -1,0 +1,43 @@
+{
+  "description": "Summary of each variable in the teenage-project dataset, including type, statistics, and missing values.",
+  "operations": "read_csv + rename + mutate + summarise each variable by class (numeric or factor)",
+  "summary": [
+    {
+      "variable": "year",
+      "type": "numeric",
+      "mean": 106.9286,
+      "sd": 3.579,
+      "min": 102,
+      "median": 106.5,
+      "max": 113,
+      "n_missing": 0
+    },
+    {
+      "variable": "project",
+      "type": "factor",
+      "n_missing": 0,
+      "n_levels": 8,
+      "top_counts": "10, 4, 4"
+    },
+    {
+      "variable": "team_count",
+      "type": "numeric",
+      "mean": 45.0714,
+      "sd": 46.848,
+      "min": 0,
+      "median": 23,
+      "max": 157,
+      "n_missing": 0
+    },
+    {
+      "variable": "participant_count",
+      "type": "numeric",
+      "mean": 488.75,
+      "sd": 589.9337,
+      "min": 0,
+      "median": 113,
+      "max": 1879,
+      "n_missing": 0
+    }
+  ]
+}
